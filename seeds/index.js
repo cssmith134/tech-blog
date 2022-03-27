@@ -8,7 +8,7 @@ async function seedAll() {
     await sequelize.sync({ force: true });
     console.log('Database synced');
 
-  //  await seedUsers();
+   await seedUsers();
    // console.log('Users seeded');
    // await seedGuitars();
    // console.log('Guitars seeded');
